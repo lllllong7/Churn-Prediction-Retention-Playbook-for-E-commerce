@@ -14,7 +14,7 @@ Predict 30-day churn and design **LTV × Risk** interventions that maximize **ne
 
 ## Results
 - **Recall**: **75.89%** · **Precision**: **68.01%** · **F1**: **71.73%**  
-- **ROC-AUC**: **0.704**  · PR-AUC: **TODO** (fill with `average_precision_score`)  
+- **ROC-AUC**: **0.704**  · PR-AUC: **0.7363**
 - **Segment uplift (estimated, GBP)**  
   - **A (High-Value × High-Risk)** — Count **11**, Avg LTV **£2,528.52**, **Net uplift £275.00**  
   - **B (High-Value × Low-Risk)** — Count **173**, Avg LTV **£4,817.27**, **Net uplift £865.00**  
@@ -29,12 +29,10 @@ Predict 30-day churn and design **LTV × Risk** interventions that maximize **ne
 - Plotly HTML (open locally):  
   `outputs/figs/fig_cohort_retention.html` · `fig_prob_hist.html` · `fig_lift.html` · `fig_ltv_risk_scatter.html` · `experiment_dashboard.html`  
 - Kaggle Notebook (one-click run): <YOUR_KAGGLE_LINK>  
-- Open in Colab: <YOUR_COLAB_LINK>
+- Open in Colab: https://colab.research.google.com/drive/1oLuJUnUtsHdYQle4Ax4-zX7KavDLr-qu?usp=sharing
 
 ## Data
-- **Original source**: UCI Machine Learning Repository — *Online Retail* (coverage **2010-12-01 → 2011-12-09**, GBP)  
-  https://archive.ics.uci.edu/ml/datasets/online+retail  
-- **Mirror used**: Kaggle — *Online Retail Dataset* (Ulrik Thyge Pedersen)  
+Kaggle — *Online Retail Dataset* (Ulrik Thyge Pedersen)  
   https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset/data
 
 **Schema**  
@@ -129,5 +127,4 @@ churn-retention-playbook/
 ```
 ## License & Citation
 -	License: MIT (see LICENSE)
--	Cite:
-  -	Kaggle mirror — Online Retail Dataset (Ulrik Thyge Pedersen)
+-	Cite: Kaggle — Online Retail Dataset (Ulrik Thyge Pedersen)
