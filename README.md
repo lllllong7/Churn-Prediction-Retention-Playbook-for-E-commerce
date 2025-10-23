@@ -1,5 +1,5 @@
 # Churn Prediction & Retention Playbook (Online Retail)
-[![Open in Colab](https://img.shields.io/badge/Colab-Open%20Notebook-orange?logo=googlecolab)]([<YOUR_COLAB_LINK>](https://colab.research.google.com/drive/1oLuJUnUtsHdYQle4Ax4-zX7KavDLr-qu?usp=sharing))
+[![Open in Colab](https://img.shields.io/badge/Colab-Open%20Notebook-orange?logo=googlecolab)](https://colab.research.google.com/drive/1oLuJUnUtsHdYQle4Ax4-zX7KavDLr-qu?usp=sharing)
 
 ## Goal
 Predict 30-day churn and design **LTV × Risk** interventions that maximize **net profit**.
