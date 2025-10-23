@@ -5,15 +5,15 @@
 Predict 30-day churn and design **LTV × Risk** interventions that maximize **net profit**.
 
 ## Highlights
-- **Time-based split**: Observation **90d**, Prediction **30d**; label leakage guarded  
-- Features: **RFM + behavior + seasonality + country + returns + wholesaler heuristic**  
-- Models: **Calibrated Logistic / Random Forest** (`class_weight='balanced'`), **recall-first thresholding**  
-- Evaluation: **Recall, Precision, F1, ROC-AUC**, Probability Histogram, **Lift Chart**  
+- **Time-based labeling**: Observation **90d**, Prediction **30d** (prevents label leakage)
+- Features: **RFM**, activity/behavior (e.g., AOV, quantity, item diversity), **returns rate**, country, **wholesaler heuristic**
+- Models: **Random Forest / Logistic Regression** with class imbalance handling; recall-first thresholding
+- Evaluation: **Recall, Precision, F1, ROC-AUC**, Probability Histogram, **Lift Chart**, cohort retention  
 - Actions: **2×2 LTV × Risk** segments with **costed ROI**; A/B funnel with **Wilson 95% CI**
 
 ## Results (example run)
-- **Recall**: **75.89%** · **Precision**: **68.01%** · **F1**: **71.73%**  
-- **ROC-AUC**: **0.704**  · PR-AUC: **0.7363**
+- **Recall**: **75.89%** - **Precision**: **68.01%** - **F1**: **71.73%**  
+- **ROC-AUC**: **0.704**  - PR-AUC: **0.7363**
 - **Segment uplift (estimated, GBP)**  
   - **A (High-Value × High-Risk)** — Count **11**, Avg LTV **£2,528.52**, **Net uplift £275.00**  
   - **B (High-Value × Low-Risk)** — Count **173**, Avg LTV **£4,817.27**, **Net uplift £865.00**  
