@@ -21,9 +21,12 @@ Predict 30-day churn and design **LTV × Risk** interventions that maximize **ne
   - **D (Low-Value × Low-Risk)** — Count **239**, Avg LTV **£783.40**, **Net uplift −£119.50**  
   - **Total projected net uplift**: **£1,020.50** (under current cost & margin assumptions)
 - **Dashboards included:**
-  > **Overview:** KPI cards, cohort retention, probability histogram, Lift, PR, ROC  
-  > **Segments:** LTV × Risk scatter with thresholds + segment size/revenue/profit  
-  > **Experiment:** A/B funnel (Delivered→Opened→Clicked→Purchased), 95% Wilson CI, net profit  
+  - **Overview:** KPI cards, cohort retention, probability histogram, Lift, PR, ROC
+  - https://lllllong7.github.io/Churn-Prediction-Retention-Playbook-for-E-commerce/figs/overview_dashboard.html  
+  - Segments:** LTV × Risk scatter with thresholds + segment size/revenue/profit  
+  - https://lllllong7.github.io/Churn-Prediction-Retention-Playbook-for-E-commerce/figs/segments_dashboard.html
+  - Experiment:** A/B funnel (Delivered→Opened→Clicked→Purchased), 95% Wilson CI, net profit
+  - https://lllllong7.github.io/Churn-Prediction-Retention-Playbook-for-E-commerce/figs/experiment_dashboard.html
 
 ## Quickstart
 **Option A — One-Click Notebook (recommended)**
