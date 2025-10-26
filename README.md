@@ -9,7 +9,7 @@ Predict 30-day churn and design **LTV × Risk** interventions that maximize **ne
 - Features: **RFM**, activity/behavior (e.g., AOV, quantity, item diversity), **returns rate**, country, **wholesaler heuristic**
 - Models: **Random Forest / Logistic Regression** with class imbalance handling; recall-first thresholding
 - Evaluation: **Recall, Precision, F1, ROC-AUC**, Probability Histogram, **Lift Chart**, cohort retention  
-- Actions: **2×2 LTV × Risk** segments with **costed ROI**; A/B funnel with **Wilson 95% CI**
+- Actions: **2×2 LTV × Risk** segments; A/B funnel with **Wilson 95% CI**
 
 ## Results (example run)
 - **Recall**: **75.89%** - **Precision**: **68.01%** - **F1**: **71.73%**  
@@ -132,7 +132,7 @@ churn-retention-playbook/
 │     ├─ features.py               # RFM/behavior/seasonality/country/returns/wholesale
 │     ├─ labeling.py               # 90d+30d windows; churn rule
 │     ├─ modeling.py               # LR/RF; metrics; PR/ROC/Lift/Histo
-│     ├─ policy.py                 # LTV×Risk segmentation; ROI simulation
+│     ├─ policy.py                 # LTV×Risk segmentation
 │     ├─ experiment.py             # Simulate aggregated A/B from segments
 │     └─ plotly_helpers.py         # Plotly figures & combined dashboards
 ├─ notebooks/
